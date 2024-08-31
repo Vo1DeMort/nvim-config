@@ -1,4 +1,5 @@
 require("config.keymap_set_up")
 require("config.lazy")
 
--- i don't have lsp ,terminal,and auto completion
+vim.o.sessionoptions = "blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions"
+
